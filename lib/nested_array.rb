@@ -22,8 +22,8 @@ def assembled_matrix
     ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"]
   ]
   
-[ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
-#nested_array
+#[ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
+nested_array
 
 [ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort]
 
