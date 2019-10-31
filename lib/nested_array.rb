@@ -18,18 +18,16 @@ ENFIELD_TENNIS_ACADEMY = [
 
 def assembled_matrix 
   nested_array = [
-    ENNET_HOUSE =>  [
-      "Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"],
-    ENFIELD_TENNIS_ACADEMY => [
-      "Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"]
+    ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"],
+    ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"]
   ]
   
-#[ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
+[ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
 #nested_array
 
 [ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort]
 
-[ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
+#[ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
 
   
   # Build an array that contains (or, "nests") the residents of The Ennet House
